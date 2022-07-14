@@ -1,19 +1,40 @@
-#include "main.h"
+#include "main.h"                                                                                                                       
 
-/**
-*_strlen -length of a string
-*@s: pointer to an int that will be changed
-*
-*Return: void, means answer is correct 
-*/
+                                                                                                                                        
 
-int _strlen(char *s)
-{int u:
+/**                                                                                                                                     
 
-u = 0;
-while (s[u] != '\0')
+*_strlen -length of a string                                                                                                            
+
+*@s: pointer to an int that will be changed                                                                                             
+
+*                                                                                                                                       
+
+*Return: void, means answer is correct                                                                                                  
+
+*/                                                                                                                                      
+
+                                                                                                                                        
+
+int _strlen(char *s)                                                                                                                    
+
 {
-u++;
-}
-return (u);
-}
+
+int u;                                                                                                                                
+
+                                                                                                                                        
+
+u = 0;                                                                                                                                  
+
+while (s[u] != '\0')                                                                                                                    
+
+{                                                                                                                                       
+
+u++;                                                                                                                                    
+
+}                                                                                                                                       
+
+return (u);                                                                                                                             
+
+}                
+
